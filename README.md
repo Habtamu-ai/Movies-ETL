@@ -23,5 +23,11 @@ Using Python, Pandas, the ETL process, and code refactoring, we extract and tran
 Using Python, Pandas, the ETL process, and code refactoring, we extract and transform the Kaggle metadata and MovieLens rating data, then convert the transformed data into separate DataFrames. Then, we merge the Kaggle metadata DataFrame with the Wikipedia movies DataFrame to create the movies_df DataFrame. Finally, we merge the MovieLens rating data DataFrame with the movies_df DataFrame to create the movies_with_ratings_df.
 
 ### Create the Movie Database
-Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL to add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
+Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL we add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
+Looking the table below we can seee we succefuly load our data in to our SQL database.
+![movies_query](https://user-images.githubusercontent.com/78656720/114308868-4907bf00-9ab3-11eb-93ff-0950ffe01c24.png)
+![ratings_df](https://user-images.githubusercontent.com/78656720/114308872-4b6a1900-9ab3-11eb-9256-cbe08b72f799.png)
+
+
+
 ## Summary
