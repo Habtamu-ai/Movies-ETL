@@ -26,8 +26,11 @@ Using Python, Pandas, the ETL process, and code refactoring, we extract and tran
 Using Python, Pandas, the ETL process, code refactoring, and PostgreSQL we add the movies_df DataFrame and MovieLens rating CSV data to a SQL database.
 Looking the table below we can seee we succefuly load our data in to our SQL database.
 ![movies_query](https://user-images.githubusercontent.com/78656720/114308868-4907bf00-9ab3-11eb-93ff-0950ffe01c24.png)
-![ratings_df](https://user-images.githubusercontent.com/78656720/114308872-4b6a1900-9ab3-11eb-9256-cbe08b72f799.png)
-
-
+![ratings_query](https://user-images.githubusercontent.com/78656720/114308931-70f72280-9ab3-11eb-8dd7-efc68530e577.png)
 
 ## Summary
+The main purpose of this project is to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. We refactor the code from this module and managed to create:
+ 1: An ETL function to read three data files
+ 2: Extract and Transform the Wikipedia Data
+ 3: Extract and Transform the Kaggle Data
+ 4: Create the Movie Database
